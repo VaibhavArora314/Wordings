@@ -15,7 +15,7 @@ footer .Credits {
   margin-left: 1.5rem;
   margin-bottom: 0.6rem;
   padding-bottom: 0.5rem;
-  margin-right: 60vw;
+  margin-right: 48vw;
 }
 
 footer .Contact {
@@ -27,4 +27,15 @@ footer .Contact {
 
 footer a {
   color: white;
+}
+
+@media screen and (min-width: 765px) and (max-width: 1000px) {
+  footer .Credits {
+    margin-right: 45vw;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1050px) and (min-height: 800px) {
+  footer .Credits {
+    margin-right: 55vw;
+  }
 }
