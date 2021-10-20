@@ -1,0 +1,30 @@
+footer {
+  margin-top: 2rem;
+  background: rgb(24, 22, 22);
+  padding-bottom: 0.15rem;
+  border-top: 1.5rem solid #222;
+}
+
+footer p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+footer .Credits {
+  float: left;
+  margin-left: 1.5rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.5rem;
+  margin-right: 60vw;
+}
+
+footer .Contact {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.5rem;
+}
+
+footer a {
+  color: white;
+}
