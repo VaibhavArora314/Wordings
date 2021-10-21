@@ -1,17 +1,167 @@
-main .notice {
-  height: 85vh;
+header {
+  height: 75vh;
+  width: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header .clearfix {
+  height: 20vh;
+}
+
+header .title {
+  display: flex;
+  height: 6rem;
+  width: 26.2rem;
+  justify-content: center;
+}
+
+header .title h1 {
+  color: orangered;
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+}
+
+header .title h1:hover {
+  color: #fff;
+  text-shadow: -1px 1px 0 darkblue, 1px 1px 0 darkblue, 1px -1px 0 darkblue,
+    -1px -1px 0 darkblue;
+}
+
+header p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+}
+
+header .tagline {
+  color: darkblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 6rem;
+}
+
+main .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 2rem;
+  padding: 1rem;
+  height: 14rem;
+  border-radius: 2rem;
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.2), 5px 5px 0 rgba(0, 0, 0, 0.2),
+    5px -5px 0 rgba(0, 0, 0, 0.2), -5px -5px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .box .image {
+  height: 12rem;
+  width: 15rem;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+main .box .special {
+  margin-left: 2rem;
+  margin-right: 0;
+}
+
+main .box img {
+  height: 12rem;
+  width: 15rem;
+  object-fit: cover;
+}
+
+main .box .content {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+main .box .content h2 {
+  color: white;
+  text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black,
+    -1px -1px 0 black;
+  font-size: 2rem;
+}
+
+main .box p {
+  font-size: 1.2rem;
+}
+
+main .published {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+main .published div {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-main .notice p {
-  padding: 1rem;
+main .published h2 {
+  color: #fff;
+  font-size: 3rem;
+  margin: 1rem 0;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+main .published .box2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+main .published .box2 .image {
+  display: inline-block;
+}
+
+main .published img {
+  width: 12rem;
+  height: auto;
+}
+
+main .published .buy {
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 1rem;
+}
+
+main .published .buy:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+main .published a,
+header .About a {
+  font-size: 1rem;
   color: black;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
-  background: rgba(255, 255, 255, 0.5);
-  font-size: 2rem;
-  border-radius: 1.5rem;
+  text-decoration: none;
 }
