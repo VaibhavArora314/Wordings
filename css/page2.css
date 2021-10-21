@@ -11,6 +11,7 @@ main .notice p {
   color: black;
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   font-size: 2rem;
+  border-radius: 1.5rem;
 }

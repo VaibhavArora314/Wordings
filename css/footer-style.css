@@ -29,13 +29,28 @@ footer a {
   color: white;
 }
 
+@media screen and (max-width: 765px) {
+  footer .Credits {
+    margin-right: 0.5rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 765px) and (max-width: 1000px) {
   footer .Credits {
-    margin-right: 45vw;
+    margin-right: 4rem;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1050px) and (min-height: 800px) {
   footer .Credits {
-    margin-right: 55vw;
+    margin-right: 16rem;
   }
 }

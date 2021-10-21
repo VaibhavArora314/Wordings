@@ -27,6 +27,8 @@ header .title h1 {
   margin: 0;
   padding: 0;
   font-size: 4rem;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
 }
 
 header .title h1:hover {
@@ -45,6 +47,8 @@ header p {
   font-size: 1.4rem;
   font-weight: 500;
   margin-top: 1.5rem;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
 }
 
 header .tagline {
@@ -53,14 +57,13 @@ header .tagline {
 
 header .About {
   color: black;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
   text-align: center;
   margin: 3rem 0 0;
-  width: 62vw;
-  padding-right: 5rem;
-  padding-left: 5rem;
-  background: rgba(0, 0, 0, 0.1);
+  width: 45rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 1.5rem;
 }
 
 header .About p {
@@ -78,7 +81,7 @@ header .About img {
 }
 
 main {
-  background: rgba(0, 38, 255, 0.2);
+  background: rgba(0, 0, 0, 0);
   margin-left: 5vw;
   margin-right: 5vw;
 }
@@ -88,6 +91,8 @@ main .services {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2rem;
 }
 
 main .services .intro {
@@ -98,6 +103,8 @@ main .services .intro h2 {
   color: #fff;
   font-size: 3rem;
   margin-bottom: 1.5rem;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 main .services .content {
@@ -132,14 +139,16 @@ main .stats {
   align-items: center;
   justify-content: flex-start;
   margin: 2rem 4rem;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 2rem;
 }
 
 main .stats h2 {
   color: #fff;
   font-size: 3rem;
   margin-bottom: 0;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 main .stats h3 {
@@ -157,7 +166,7 @@ main .stats img {
 
 main .stats .box {
   display: flex;
-  width: 100%;
+  width: auto;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -172,7 +181,8 @@ main .bestsellers {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 main .bestsellers div {
@@ -186,12 +196,17 @@ main .bestsellers h2 {
   color: #fff;
   font-size: 3rem;
   margin: 1rem 0;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 main .bestsellers .box {
   display: flex;
   flex-direction: column;
   margin: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 main .bestsellers .box .image {
@@ -222,12 +237,79 @@ header .About a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 765px) {
+  header .title h1 {
+    font-size: 3rem;
+  }
+  header .title {
+    width: auto;
+  }
+  header .tagline {
+    padding: 1.2rem;
+    text-align: center;
+  }
+  header .About {
+    margin: 3rem 0 0;
+    width: 18rem;
+    padding: 0.6rem;
+  }
+  main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  main .services .content {
+    display: grid;
+    grid-template-rows: 20rem 20rem 20rem;
+    grid-template-columns: 11rem 11rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 0rem;
+  }
+  main h2 {
+    font-size: 2.2rem;
+  }
+  main .services .content .head {
+    font-size: 1.5rem;
+  }
+  main .services .content .about {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  main .stats {
+    padding-bottom: 5rem;
+    margin: 2rem 1rem;
+  }
+  main .stats .box {
+    display: grid;
+    grid-template-rows: 10rem 10rem;
+    grid-template-columns: 10rem 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+  main .bestsellers img {
+    width: 6rem;
+    height: auto;
+  }
+  main .bestsellers .buy {
+    width: 6rem;
+    height: 1.2rem;
+  }
+  main .bestsellers a {
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (min-width: 765px) and (max-width: 1000px) {
   header {
     height: 80vh;
   }
   header p {
     font-size: 1.5rem;
+  }
+  header .About {
+    padding: 1rem;
   }
   header .About p {
     font-size: 1.4rem;
