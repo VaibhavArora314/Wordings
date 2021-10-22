@@ -69,6 +69,7 @@ header .About {
 header .About p {
   font-size: 1.25rem;
   margin-top: 1rem;
+  line-height: 1.5;
 }
 
 header .fa-whatsapp-square {
@@ -92,6 +93,7 @@ main .services {
   align-items: center;
   margin-top: 30px;
   background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
   border-radius: 2rem;
 }
 
@@ -257,6 +259,9 @@ header .About a {
   main {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+  main .services {
+    padding: 1rem 2rem;
   }
   main .services .content {
     display: grid;
