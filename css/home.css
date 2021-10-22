@@ -262,6 +262,7 @@ header .About a {
   }
   main .services {
     padding: 1rem 2rem;
+    margin-top: 3rem;
   }
   main .services .content {
     display: grid;
