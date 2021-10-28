@@ -47,12 +47,20 @@ header p {
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 1.5rem;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
+  /* text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff; */
 }
 
 header .tagline {
   color: darkblue;
+  background: rgba(255, 255, 255, 0);
+  margin: 0.5rem 0;
+}
+
+header .taglinebox {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 header .About {
@@ -103,11 +111,9 @@ main .services .intro {
 }
 
 main .services .intro h2 {
-  color: #fff;
+  color: black;
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000;
 }
 
 main .services .content {
@@ -147,11 +153,9 @@ main .stats {
 }
 
 main .stats h2 {
-  color: #fff;
+  color: #000;
   font-size: 3rem;
   margin-bottom: 0;
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000;
 }
 
 main .stats h3 {
