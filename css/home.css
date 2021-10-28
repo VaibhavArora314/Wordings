@@ -44,7 +44,7 @@ header .About .whatsapp {
 }
 
 header p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-top: 1.5rem;
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
@@ -62,7 +62,7 @@ header .About {
   width: 45rem;
   padding-right: 3rem;
   padding-left: 3rem;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 1.5rem;
 }
 
@@ -70,6 +70,7 @@ header .About p {
   font-size: 1.25rem;
   margin-top: 1rem;
   line-height: 1.5;
+  text-shadow: unset;
 }
 
 header .fa-whatsapp-square {

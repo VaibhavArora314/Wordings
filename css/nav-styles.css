@@ -51,6 +51,12 @@ nav .logo {
   /* margin: 5px 20px 5px 50px; */
 }
 
+@media screen and (max-width: 450px) {
+  nav {
+    margin-bottom: 4rem;
+  }
+}
+
 @media screen and (max-width: 750px) {
   nav {
     justify-content: space-between;

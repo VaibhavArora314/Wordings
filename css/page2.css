@@ -174,13 +174,13 @@ header .About a {
     margin: 1rem 2rem;
   }
   main .box {
-    height: 20rem;
+    height: fit-content;
     margin: 1rem 0;
-    padding: 0 0.4rem;
+    padding: 0 0.1rem;
   }
   main .box .image {
     height: 10rem;
-    width: 10rem;
+    width: 9.5rem;
     margin-right: 0.3rem;
     margin-left: 0;
   }
@@ -190,7 +190,7 @@ header .About a {
   }
   main .box img {
     height: 10rem;
-    width: 10rem;
+    width: 9.5rem;
     object-fit: cover;
   }
   /* main .box .content {

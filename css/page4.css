@@ -1,17 +1,78 @@
-main .notice {
-  height: 85vh;
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-main .notice p {
-  padding: 1rem;
+header .clearfix {
+  height: 20vh;
+}
+
+header .title {
+  display: flex;
+  height: 6rem;
+  width: auto;
+}
+
+header .about {
   color: black;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 3rem 0 10rem;
+  width: 50vw;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1.5rem;
+}
+
+header .title h1 {
+  color: orangered;
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
-  background: rgba(255, 255, 255, 0.5);
-  font-size: 2rem;
-  border-radius: 1.5rem;
+}
+
+header .title h1:hover {
+  color: #fff;
+  text-shadow: -1px 1px 0 darkblue, 1px 1px 0 darkblue, 1px -1px 0 darkblue,
+    -1px -1px 0 darkblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h2 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+main table {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+table,
+td,
+th {
+  border: 2px solid grey;
+  border-collapse: collapse;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+main .x {
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+  font-size: 1rem;
+  width: 60vw;
 }
