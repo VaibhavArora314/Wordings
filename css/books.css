@@ -1,0 +1,55 @@
+main {
+  margin: 2rem 8vw;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+main img {
+  width: 15rem;
+  margin: 2.5rem 0 1rem 2rem;
+}
+
+main h2 {
+  font-size: 1.8rem;
+}
+
+main p {
+  font-size: 1.1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.buy {
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+  margin: 0 1rem;
+}
+
+.buy:hover {
+  background: rgba(200, 200, 200, 0.7);
+}
+
+main .box a,
+main .box p {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+main .box p {
+  font-weight: 600;
+}
