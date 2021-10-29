@@ -1,12 +1,10 @@
 header {
+  width: 80vw;
+  margin: 15vh 10vw 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-header .clearfix {
-  height: 20vh;
 }
 
 header .title {
@@ -51,9 +49,10 @@ main {
 main h2 {
   color: #fff;
   font-size: 3rem;
-  margin-bottom: 3rem;
+  margin: 5vh 0;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
+  text-align: center;
 }
 
 main table {
@@ -75,4 +74,25 @@ main .x {
     -1px -1px 0 #fff;
   font-size: 1rem;
   width: 60vw;
+}
+
+@media screen and (max-width: 1000px) {
+  header .about {
+    width: 70vw;
+  }
+  table,
+  td,
+  th {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  table,
+  td,
+  th {
+    padding: 0.5rem 0;
+    font-size: 0.7rem;
+  }
 }

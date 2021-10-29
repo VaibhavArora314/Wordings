@@ -1,16 +1,14 @@
 main {
-  margin: 2rem 8vw;
+  margin: 4vh 6vw;
   background: rgba(255, 255, 255, 0.85);
-  padding: 1rem 2rem;
-  border-radius: 2rem;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  padding: 1vh 4vw;
+  border-radius: 3rem;
 }
 
 main img {
   width: 15rem;
   margin: 2.5rem 0 1rem 2rem;
+  float: right;
 }
 
 main h2 {
@@ -52,4 +50,10 @@ main .box p {
 
 main .box p {
   font-weight: 600;
+}
+
+@media screen and (max-width: 750px) {
+  main img {
+    width: 7rem;
+  }
 }

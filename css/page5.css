@@ -62,3 +62,20 @@ main h2 {
 main h3 {
   font-size: 2rem;
 }
+
+main .name {
+  margin-bottom: 5px;
+}
+
+main img {
+  height: 40vh;
+  border-radius: 20vh;
+  border: 0.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1020px) {
+  main img {
+    height: 30vh;
+    border-radius: 15vh;
+  }
+}
