@@ -79,3 +79,15 @@ main img {
     border-radius: 15vh;
   }
 }
+
+@media screen and (max-width: 750px) {
+  main h1 {
+    font-size: 2.5rem;
+  }
+  main h2 {
+    font-size: 1.8rem;
+  }
+  main h3 {
+    font-size: 1.5rem;
+  }
+}
