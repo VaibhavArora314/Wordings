@@ -15,3 +15,50 @@ main .notice p {
   font-size: 2rem;
   border-radius: 1.5rem;
 }
+
+main {
+  width: 80vw;
+  margin: 20vh 10vw 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 10vh 0;
+  padding: 4vh 4vw;
+  border-radius: 4rem;
+  text-align: center;
+}
+
+main .title,
+main .title div {
+  display: flex;
+  padding: 10px;
+}
+
+main h1 {
+  color: orangered;
+  font-size: 4rem;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+}
+
+main h1:hover {
+  color: white;
+  text-shadow: -1px 1px 0 darkblue, 1px 1px 0 darkblue, 1px -1px 0 darkblue,
+    -1px -1px 0 darkblue;
+}
+
+main h2 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+main h3 {
+  font-size: 2rem;
+}
