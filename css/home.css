@@ -1,28 +1,23 @@
-header {
-  height: 105vh;
-  width: auto;
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0);
+  margin: 20vh 5vw 10vh;
 }
 
-header .clearfix {
-  height: 20vh;
-}
-
-header .title {
+main .title {
   display: flex;
   height: 6rem;
-  width: 26.2rem;
 }
 
-header .title div {
+main .title div {
   display: flex;
   padding: 10px;
 }
 
-header .title h1 {
+main .title h1 {
   color: orangered;
   margin: 0;
   padding: 0;
@@ -31,19 +26,19 @@ header .title h1 {
     -1px -1px 0 #fff;
 }
 
-header .title h1:hover {
+main .title h1:hover {
   color: #fff;
   text-shadow: -1px 1px 0 darkblue, 1px 1px 0 darkblue, 1px -1px 0 darkblue,
     -1px -1px 0 darkblue;
 }
 
-header .About .whatsapp {
+main .About .whatsapp {
   display: inline-block;
   background: #ece5dd;
   color: #075e54;
 }
 
-header p {
+main .header {
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 1.5rem;
@@ -51,19 +46,19 @@ header p {
     -1px -1px 0 #fff; */
 }
 
-header .tagline {
+main .tagline {
   color: darkblue;
   background: rgba(255, 255, 255, 0);
   margin: 0.5rem 0;
 }
 
-header .taglinebox {
+main .taglinebox {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 2rem;
   padding: 1rem;
 }
 
-header .About {
+main .About {
   color: black;
   text-align: center;
   margin: 3rem 0 0;
@@ -74,67 +69,63 @@ header .About {
   border-radius: 1.5rem;
 }
 
-header .About p {
+main .About p {
   font-size: 1.25rem;
   margin-top: 1rem;
   line-height: 1.5;
   text-shadow: unset;
 }
 
-header .fa-whatsapp-square {
+main .fa-whatsapp-square {
   color: #25d366;
 }
 
-header .About img {
-  height: 1.8rem;
-  border-radius: 0.9rem;
-}
-
-main {
-  background: rgba(0, 0, 0, 0);
-  margin-left: 5vw;
-  margin-right: 5vw;
+main .About img {
+  height: 1.9rem;
+  border-radius: 1rem;
 }
 
 main .services {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20vh;
   background: rgba(255, 255, 255, 0.8);
-  padding: 1rem;
+  padding: 4vh 0;
   border-radius: 2rem;
 }
 
 main .services .intro {
   text-align: center;
+  margin: 4vh 2vw 6vh;
 }
 
 main .services .intro h2 {
   color: black;
   font-size: 3rem;
-  margin-bottom: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
 main .services .content {
   display: grid;
-  grid-template-rows: 30vh 30vh;
+  grid-template-rows: 40vh 40vh;
   grid-template-columns: 30vw 30vw 30vw;
   justify-items: center;
   align-items: center;
   justify-content: center;
   align-content: center;
-  grid-row-gap: 3rem;
+  grid-row-gap: 10vh;
 }
 
 main .services .content div {
-  padding: 1px 35px;
+  padding: 4vh 4vw;
   text-align: center;
 }
 
 main .services .content .head {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -147,7 +138,8 @@ main .stats {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: 2rem 4rem;
+  margin: 20vh 2vw 2vh;
+  padding: 0 4vw;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 2rem;
 }
@@ -189,8 +181,7 @@ main .bestsellers {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 15vh;
 }
 
 main .bestsellers div {
@@ -246,28 +237,23 @@ header .About a {
 }
 
 @media screen and (max-width: 765px) {
-  header .title h1 {
+  main .title h1 {
     font-size: 3rem;
   }
-  header .title {
-    width: auto;
+  main .taglinebox {
+    width: 70vw;
   }
-  header .tagline {
-    padding: 1.2rem;
+  main .tagline {
+    padding: 0.2rem;
     text-align: center;
   }
-  header .About {
+  main .About {
     margin: 3rem 0 0;
-    width: 18rem;
+    width: 70vw;
     padding: 0.6rem;
   }
-  main {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
   main .services {
-    padding: 1rem 2rem;
-    margin-top: 6rem;
+    width: 80vw;
   }
   main .services .content {
     display: grid;
@@ -290,8 +276,7 @@ header .About a {
     line-height: 1.5;
   }
   main .stats {
-    padding-bottom: 5rem;
-    margin: 2rem 1rem;
+    max-width: 75vw;
   }
   main .stats .box {
     display: grid;
@@ -299,6 +284,9 @@ header .About a {
     grid-template-columns: 10rem 10rem;
     align-items: center;
     justify-content: center;
+  }
+  main .bestsellers {
+    margin-top: 10vh;
   }
   main .bestsellers img {
     width: 6rem;
@@ -313,34 +301,28 @@ header .About a {
   }
 }
 
-@media screen and (min-width: 765px) and (max-width: 1000px) {
-  header {
-    height: 80vh;
-  }
-  header p {
+/* @media screen and (min-width: 765px) and (max-width: 1000px) {
+  main p {
     font-size: 1.5rem;
   }
-  header .About {
+  main .About {
     padding: 1rem;
   }
-  header .About p {
+  main .About p {
     font-size: 1.4rem;
     margin-top: 2rem;
   }
   main .services .content {
     grid-template-rows: 35vh 35vh;
   }
-}
+} */
 
-@media screen and (min-width: 1000px) and (max-width: 1050px) and (min-height: 800px) {
-  header {
-    height: 70vh;
-  }
-  header p {
+/* @media screen and (min-width: 1000px) and (max-width: 1050px) and (min-height: 800px) {
+  main p {
     font-size: 1.6rem;
     line-height: 1.5;
   }
-  header .About p {
+  main .About p {
     font-size: 1.45rem;
     margin-top: 2rem;
   }
@@ -351,4 +333,4 @@ header .About a {
     font-size: 1.5rem;
     line-height: 1.2;
   }
-}
+} */
