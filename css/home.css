@@ -260,7 +260,7 @@ header .About a {
     grid-template-rows: 20rem 20rem 20rem;
     grid-template-columns: 10rem 10rem;
     justify-items: center;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     align-content: center;
     grid-column-gap: 0rem;
