@@ -115,9 +115,9 @@ main .services .content {
   grid-template-rows: 40vh 40vh;
   grid-template-columns: 30vw 30vw 30vw;
   justify-items: center;
-  align-items: start;
+  align-items: center;
   justify-content: center;
-  align-content: center;
+  align-content: start;
   grid-row-gap: 10vh;
 }
 
@@ -243,7 +243,7 @@ header .About a {
   position: absolute;
   display: inline-block;
   top: 120vh;
-  bottom: 2vh;
+  bottom: 0.1vh;
   right: 0.1rem;
   width: fit-content;
   border-radius: 100%;

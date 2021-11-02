@@ -81,7 +81,7 @@ main .x {
   position: absolute;
   display: inline-block;
   top: 60vh;
-  bottom: 2vh;
+  bottom: 0.1vh;
   right: 8vw;
   width: fit-content;
   border-radius: 100%;

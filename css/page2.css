@@ -171,7 +171,7 @@ header .About a {
   position: absolute;
   display: inline-block;
   top: 40vh;
-  bottom: 2vh;
+  bottom: 0.1vh;
   right: 0.1rem;
   width: fit-content;
   border-radius: 100%;

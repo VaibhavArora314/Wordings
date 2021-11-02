@@ -1,8 +1,13 @@
 footer {
   margin-top: 2rem;
   background: rgb(24, 22, 22);
-  padding-bottom: 0.15rem;
   border-top: 1.5rem solid #222;
+  padding: 1vh 5vw 0;
+  display: grid;
+  /* height: 25vh; */
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
 }
 
 footer p {
@@ -10,43 +15,50 @@ footer p {
   color: white;
 }
 
-footer .Credits {
-  float: left;
-  margin-left: 1.5rem;
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.5rem;
-  margin-right: 40vw;
-}
-
-footer .Contact {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.5rem;
-}
-
 footer a {
   color: white;
 }
 
 @media screen and (max-width: 765px) {
+  footer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; */
+    position: relative;
+    grid-template-rows: auto;
+    grid-template-columns: auto 0 auto;
+    padding-bottom: 9vh;
+  }
   footer .Credits {
+    position: absolute;
+    bottom: 1vh;
+    left: 5vw;
+    right: 5vw;
     margin-right: 0.5rem;
   }
   footer p {
     font-size: 0.8rem;
   }
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media screen and (min-width: 765px) and (max-width: 1000px) {
+  footer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; */
+    position: relative;
+    grid-template-rows: auto;
+    grid-template-columns: auto 0 auto;
+    padding-bottom: 9vh;
+  }
   footer .Credits {
-    margin-right: 4rem;
+    position: absolute;
+    bottom: 1vh;
+    left: 5vw;
+    right: 5vw;
+    margin-right: 0.5rem;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1050px) and (min-height: 800px) {
