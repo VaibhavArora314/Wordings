@@ -11,6 +11,7 @@ body {
   background: url(/images/tree-cropped.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
+  position: relative;
 }
 
 nav {
@@ -51,6 +52,26 @@ nav .logo {
   width: 50px;
   border-radius: 25px;
   /* margin: 5px 20px 5px 50px; */
+}
+
+.scroll-top {
+  position: absolute;
+  display: inline-block;
+  top: 120vh;
+  bottom: 5vh;
+  right: 5vw;
+  width: fit-content;
+  border-radius: 100%;
+}
+
+.scroll-top-link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90vh;
+}
+
+.fa-angle-up {
+  color: #999;
 }
 
 @media screen and (max-width: 450px) {

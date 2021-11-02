@@ -46,7 +46,6 @@ header .tagline {
 }
 
 main {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,27 +166,10 @@ header .About a {
   text-decoration: none;
 }
 
-.scroll-top {
-  position: absolute;
-  display: inline-block;
-  top: 40vh;
-  bottom: 0.1vh;
-  right: 0.1rem;
-  width: fit-content;
-  border-radius: 100%;
-}
-
-.scroll-top-link {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 90vh;
-}
-
-.fa-chevron-circle-up {
-  color: #333;
-}
-
 @media screen and (max-width: 765px) {
+  header h1 {
+    font-size: 3rem;
+  }
   header .title {
     width: 80vw;
   }
