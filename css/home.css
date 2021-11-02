@@ -5,6 +5,7 @@ main {
   justify-content: center;
   background: rgba(0, 0, 0, 0);
   margin: 20vh 5vw 10vh;
+  position: relative;
 }
 
 main .title {
@@ -238,6 +239,26 @@ header .About a {
   text-decoration: none;
 }
 
+.scroll-top {
+  position: absolute;
+  display: inline-block;
+  top: 120vh;
+  bottom: 2vh;
+  right: 0.1rem;
+  width: fit-content;
+  border-radius: 100%;
+}
+
+.scroll-top-link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90vh;
+}
+
+.fa-chevron-circle-up {
+  color: #333;
+}
+
 @media screen and (max-width: 750px) {
   main .title h1 {
     font-size: 3rem;
@@ -250,7 +271,7 @@ header .About a {
     text-align: center;
   }
   main .About {
-    margin: 3rem 0 0;
+    margin: 2rem 0 0;
     width: 70vw;
     padding: 0.6rem;
   }

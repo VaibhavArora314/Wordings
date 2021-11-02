@@ -17,6 +17,7 @@ main .notice p {
 }
 
 main {
+  position: relative;
   width: 80vw;
   margin: 12vh 10vw 10vh;
   display: flex;
@@ -71,6 +72,26 @@ main img {
   height: 40vh;
   border-radius: 20vh;
   border: 0.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+.scroll-top {
+  position: absolute;
+  display: inline-block;
+  top: 120vh;
+  bottom: 2vh;
+  right: 0.1rem;
+  width: fit-content;
+  border-radius: 100%;
+}
+
+.scroll-top-link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90vh;
+}
+
+.fa-chevron-circle-up {
+  color: #333;
 }
 
 @media screen and (max-width: 1020px) {
