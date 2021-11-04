@@ -166,6 +166,12 @@ header .About a {
   text-decoration: none;
 }
 
+.scroll-top {
+  top: 60vh;
+  bottom: 2rem;
+  right: 1vw;
+}
+
 @media screen and (max-width: 765px) {
   header h1 {
     font-size: 3rem;

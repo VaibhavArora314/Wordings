@@ -73,6 +73,11 @@ main img {
   border: 0.25rem solid rgba(0, 0, 0, 0.5);
 }
 
+.scroll-top {
+  bottom: 2rem;
+  right: 1vw;
+}
+
 @media screen and (max-width: 1020px) {
   main img {
     height: 30vh;

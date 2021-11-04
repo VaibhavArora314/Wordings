@@ -11,6 +11,9 @@ body {
   background: url(/images/tree-cropped.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
+}
+
+main {
   position: relative;
 }
 
@@ -58,8 +61,8 @@ nav .logo {
   position: absolute;
   display: inline-block;
   top: 120vh;
-  bottom: 5vh;
-  right: 5vw;
+  bottom: 2rem;
+  right: 4vw;
   width: fit-content;
   border-radius: 100%;
 }
