@@ -43,6 +43,8 @@ header p {
 
 header .tagline {
   color: darkblue;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 main {
